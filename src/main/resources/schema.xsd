@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="bank">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="country" type="xs:string"/>
+                <xs:element name="typeOfContibution">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="GeneralDelivery"/>
+                            <xs:enumeration value="Express"/>
+                            <xs:enumeration value="Calculated"/>
+                            <xs:enumeration value="Rollup"/>
+                            <xs:enumeration value="Savings"/>
+                            <xs:enumeration value="Metal"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="depositor" type="xs:string"/>
+                <xs:element name="accountId" type="xs:long"/>
+                <xs:element name="amountOnDeposit" type="xs:integer"/>
+                <xs:element name="profitability" type="xs:float"/>
+                <xs:element name="timeConstraints" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

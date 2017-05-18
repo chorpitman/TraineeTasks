@@ -1,0 +1,5 @@
+1.I read the letter
+2.Stood up
+3.Sat Down
+4.Privet
+5.Kak dela?

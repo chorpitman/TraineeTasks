@@ -1,0 +1,4 @@
+1. validate xml by xsd in java.
+2. Create model(POJO) appropriate to xsd
+3. Create parser: SAX, JDOM, JAXB
+------------------------------------------------

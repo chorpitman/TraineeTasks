@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<bank>
+    <name>Privat</name>
+    <country>Ukraine</country>
+    <typeOfContibution>GeneralDelivery</typeOfContibution>
+    <depositor>Kramskoy</depositor>
+    <accountId>123456789</accountId>
+    <amountOnDeposit>999888777</amountOnDeposit>
+    <profitability>22.5</profitability>
+    <timeConstraints>84</timeConstraints>
+</bank>

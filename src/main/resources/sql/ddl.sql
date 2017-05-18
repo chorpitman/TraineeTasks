@@ -1,0 +1,1 @@
+db.sql=select * from employee
